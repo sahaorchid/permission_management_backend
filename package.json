@@ -1,0 +1,30 @@
+{
+  "name": "demo_crm_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://aurkid@bitbucket.org/aurkid/demo_crm_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/aurkid/demo_crm_backend#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/inert": "^6.0.5",
+    "@hapi/jwt": "^2.1.0",
+    "@hapi/vision": "^6.1.0",
+    "dotenv": "^16.0.0",
+    "hapi-swagger": "^14.2.5",
+    "joi": "^17.6.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
